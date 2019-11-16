@@ -1,4 +1,4 @@
-package negocio.beans;
+ package negocio.beans;
 
 import java.util.HashMap;
 
@@ -64,7 +64,7 @@ public class Habilidade {
 			str += String.format("Dificuldade da Magia: %d\n", this.dificuldade);
 		}
 		
-		str += String.format("Descricao: %s", this.descricao);
+		str += String.format("Descricao: %s\n", this.descricao);
 		
 		return str;
 	}
