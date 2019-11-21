@@ -17,6 +17,11 @@ public class Fachada {
 	private ControladorRacas controlRc;
 	
 	
+	public void fod()
+	{
+		System.out.println("Forca");
+	}
+	
 	/// Construturo
 	private Fachada()
 	{
